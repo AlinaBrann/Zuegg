@@ -1,0 +1,176 @@
+.sugarless
+  display: flex
+  max-width: 100%
+  flex-direction: column
+  padding: rem(44px) rem(15px)
+  overflow: visible
+  +min-screen($screen-sm)
+    overflow: hidden
+    flex-direction: row
+    padding: rem(44px) rem(127px) rem(44px) 0
+  
+  &-slider
+    height: 100%
+    &-wrapper
+      width: 100%
+      +min-screen($screen-sm)
+        width: calc(100% - #{rem(188px)})
+    &-nav
+      position: relative
+      width: 100%
+      margin: auto 0
+  &__background
+    +min-screen($screen-sm)
+      position: absolute
+      right: rem(-80px)
+      top: 0
+      display: block
+      height: 100%
+      width: rem(270px)
+      background-image: url('../img/fruits/fruits_group_2.png')
+      background-size: 100%
+      background-position: center
+      background-repeat: no-repeat
+  .slick-slider
+    height: 100%
+  .slider-preview
+    display: flex
+    flex-direction: column
+    align-items: center
+    flex-shrink: 0
+    margin-left: rem(68px)
+    +max-screen($screen-sm)
+      width: 90% 
+      margin-left: auto
+      order: -1
+  &-slide
+    position: relative
+    display: flex !important
+    height: 100%
+    align-items: center
+    justify-content: flex-end
+    flex-direction: column
+    +min-screen($screen-sm)
+      flex-direction: row
+    @for $i from 1 through 10
+      [data-slider-when-active]:nth-child(3n + #{$i})
+        transition-delay: calc( #{$default-transition-duration} + (#{$i}s / 5))
+    [data-slider-when-active]
+      opacity: 0
+      transform: translateY(rem(15px))
+      transition: .85s
+      
+      .slick-current &
+        opacity: 1
+        transform: translateY(0)
+    &__content
+      order: -1
+      +min-screen($screen-sm)
+        width: 26.5vw
+        order: 0
+    &__tag
+      display: inline-block
+      margin-bottom: rem(20px)
+      padding: rem(11px) rem(20px)
+      background: #8CB125
+      letter-spacing: 1px
+      border-radius: rem(20px)
+      font-size: rem(10px)
+      line-height: 1
+      color: #FFF
+      +min-screen($screen-sm)
+        margin-bottom: rem(26px)
+        padding: rem(12px) rem(20px)
+        font-size: rem(12px)
+    &__category
+      margin-bottom: rem(17px)
+      font-size: rem(20px)
+      +min-screen($screen-sm)
+        margin-bottom: rem(10px)
+        font-size: rem(24px)
+    &__title
+      position: relative
+      margin-bottom: rem(17px)
+      font-size: rem(36px)
+      line-height: 1
+      font-family: "CeraProBlack"
+      letter-spacing: rem(6px)
+      text-transform: uppercase
+      +min-screen($screen-sm)
+        margin-bottom: rem(26px)
+        font-size: rem(44px)
+    &-details
+      position: relative
+      display: flex
+      align-items: center
+      justify-content: space-between
+      margin-bottom: rem(40px)
+      +min-screen($screen-sm)
+        margin-bottom: rem(54px)
+      &:after
+        +b
+        top: calc(100% + #{rem(23px)})
+        +size(rem(64px), rem(2px))
+        background: $blue
+      &__item
+        flex: 0 0 49%
+        display: flex
+        align-items: center
+        font-size: rem(14px)
+      &__icon
+        flex-grow: 0
+        flex-shrink: 0
+        margin-right: rem(10px)
+    &__text
+      +max-screen($screen-sm)
+        margin-bottom: rem(110px)
+      p
+        &:not(:last-of-type)
+          margin-bottom: rem(15px)
+    &__bg
+      position: absolute
+      left: rem(-15px)
+      bottom: rem(100px)
+      width: 100vw
+      max-width: none
+      height: rem(255px)
+      object-fit: cover
+      z-index: 0
+      +min-screen($screen-sm)
+        left: 0
+        top: 0
+        bottom: auto
+        width: 31.25vw
+        height: 100%
+        border-radius: 0 rem(20px) rem(20px) 0
+
+    &-img
+      position: relative
+      height: rem(312px)
+      margin-bottom: rem(-50px)
+      transform: translateY(10%)
+      @extend .transition
+      transition-delay: .3s
+      z-index: 1
+      +min-screen($screen-sm)
+        height: 80vh  
+        margin-bottom: 0
+        margin-right: 7.8vw
+      ._active &
+        transform: translateY(0%)
+      &__jar
+        height: 100% 
+        +max-screen($screen-sm)
+          width: 60%
+          height: auto
+      &__fruit
+          position: absolute
+          right: -4vw
+          bottom: 0
+          height: 31vh
+          width: auto
+          +max-screen($screen-sm)
+            height: rem(112px)
+            right: rem(8px)
+            left: auto
+            bottom: rem(30px)

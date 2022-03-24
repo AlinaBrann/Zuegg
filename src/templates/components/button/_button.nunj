@@ -1,0 +1,14 @@
+{% from "../icon/_icon.nunj" import icon %}
+
+{% macro button(props, attr = '', tag = 'button') %}
+<{{ tag }} class="button {% if props.type %}_{{ props.type }}{% endif %}{% if props.className %} {{ props.className }}{% endif %}{% if props.play %} _play{% endif %}" {% if props.href %} href="{{ props.href }}"{% endif %} {{ attr }}>
+	{{ props.text }}
+	{% if props.icon %}
+		{{ icon({
+			name: props.icon,
+			width: '14',
+			height: '14'
+		})}}
+	{% endif %}
+</{{ tag }}>
+{% endmacro %}

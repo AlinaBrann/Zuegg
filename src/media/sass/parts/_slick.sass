@@ -1,0 +1,200 @@
+.section-slider
+	overflow: hidden
+
+.slider
+	position: relative
+	max-width: 100%
+	&-nav
+		position: absolute
+		display: flex
+		z-index: 10
+		&__item
+			position: relative
+			+size(10px)
+			border-radius: 50%
+			cursor: pointer
+			&:not(:last-of-type)
+				margin-right: 25px
+			&:before
+				+b
+				display: block
+				+size(10px)
+				top: 0px
+				left: 50%
+				transform: translateX(-50%)
+				background: transparent
+				border: 1px solid #FFF
+				border-radius: 10px
+				animation: navDotsBack 0.5s ease-in-out 0s forwards
+				box-sizing: border-box
+				._blue &
+					border-color: $blue
+			
+			&:hover
+				&:before
+					background: #FFF
+					._blue &
+						background: $blue
+			&._active
+				&:before
+					background: #FFF
+					animation: navDots 0.5s ease-in-out 0.2s forwards
+					._blue &
+						background: $blue
+	&-preview
+		width: 100%
+		+min-screen($screen-sm)
+			width: rem(120px)
+		+max-screen($screen-sm)
+			margin: 0 auto rem(30px)
+			.slick-list
+				overflow-x: hidden
+				overflow-y: visible
+		&__item
+			position: relative
+			display: flex !important
+			justify-content: flex-start
+			padding: rem(20px) 0 0
+			align-items: flex-end
+			+size(100%)
+			cursor: pointer
+			+min-screen($screen-sm)
+				+size(rem(120px), 100%)
+				padding: rem(10px) 0
+			&:before
+				+b
+				+size(100%, 90%)
+				bottom: 0
+				left: 0
+				border-radius: rem(10px)
+				background: #EFF0F5
+				transform: scale(.8) 
+				transition: .6s
+				transform-origin: 50% 100%
+				z-index: -1
+				+min-screen($screen-sm)
+					+size(100%, 90%)
+					top: 5%
+					bottom: auto
+					transform-origin: center left
+			img 
+				position: relative
+				display: block
+				height: rem(100px)
+				margin: auto
+				transition: .6s
+				transform-origin: 50% 100%
+				+min-screen($screen-sm)
+					bottom: rem(10px)
+					margin-left: rem(15px)
+					transform-origin: left center
+			.slick-current &
+				&:before
+					transform: scale(1) 
+				img
+					transform: scale(1.25)
+.slick-slider
+	opacity: 0
+	width: 100%
+	max-height: 100%
+	position: relative
+	touch-action: pan-y
+	-webkit-tap-highlight-color: transparent
+	&.slick-initialized
+		opacity: 1
+
+.slick-slider
+	*
+		outline: none
+
+.slick-list
+	position: relative
+	display: block
+	height: 100%
+	margin: 0
+	+min-screen($screen-sm)
+		overflow: hidden
+	// padding: 0 50px 0 0 !important
+	&:focus
+		outline: none
+
+.slick-track
+	position: relative
+	top: 0
+	left: 0
+	display: block
+	height: 100%
+	white-space: nowrap
+	&:before,
+	&:after
+		display: table
+		content: ''
+	&:after
+		clear: both
+
+.slides
+	position: relative
+	white-space: nowrap
+
+[data-slider-slides]
+	> *:not(:first-child)
+		display: none
+
+.slick-loading
+	.slick-track
+		visibility: hidden
+
+.slick-slide
+	position: relative
+	display: inline-block
+	vertical-align: top
+	height: 100%
+	min-height: 1px
+	white-space: normal
+	& > div
+		height: 100%
+	// &._hidden
+	// 	display: none !important
+
+.slick-initialized
+	.slick-slide
+		display: inline-block
+
+.slick-loading
+	.slick-slide
+		visibility: hidden
+
+.slick-vertical
+	.slick-slide
+		display: block
+		height: auto
+		border: 1px solid transparent
+
+.slick-disabled
+	pointer-events: none
+
+.slide
+	white-space: normal
+
+.slick-dots
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+	& li
+		width: 7px
+		height: 7px
+		border-radius: 50%
+		background: #FFF
+		transition: background-color $default-transition-duration $default-transition-function, opacity $default-transition-duration $default-transition-function
+		margin: 7px 5px
+		font-size: 0
+		color: transparent
+		&.slick-active,
+		&._active
+			background: #FFF
+			transition: none
+	& button
+		display: none
+
+.slick-hidden
+	visibility: hidden

@@ -1,0 +1,44 @@
+.slider
+	&-buttons
+		position: absolute
+		top: 62%
+		left: 50%
+		transform: translate(-50%, -50%)
+		display: flex
+		width: 110%
+		align-items: center
+		justify-content: space-between
+		pointer-events: none
+		z-index: 10
+		+min-screen($screen-sm)
+			flex-direction: column
+			width: 80%
+			height: 110%
+			top: 49%
+			left: 0
+			transform: translate(0%, -50%)
+	&-button
+		display: flex
+		align-items: center
+		justify-content: center
+		+size(rem(24px), 100%)
+		@extend .transition
+		pointer-events: all
+		cursor: pointer
+		+min-screen($screen-md)
+			+size(90%,rem(24px))
+		&:hover:not(.slick-disabled)
+			background: transparentize(#FFF,0)
+		&._prev
+			.icon
+				transform: rotate(90deg)
+				+min-screen($screen-sm)
+					transform: rotate(180deg)
+		&._next
+			transform: rotate(-90deg)
+			+min-screen($screen-sm)
+				transform: rotate(0deg)
+		&.slick-disabled
+			opacity: 0.7
+			cursor: default
+

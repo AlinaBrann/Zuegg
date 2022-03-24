@@ -1,0 +1,171 @@
+.where-to-buy
+  display: flex
+  align-items: center
+  justify-content: center
+  background: url('../img/pine-wood-texture.jpg') no-repeat center
+  background-size: cover
+  +max-screen($screen-sm)
+    padding: rem(80px) 0
+  &__content
+    width: calc(100% - #{rem(30px)})
+    padding: rem(36px) rem(15px) rem(36px)
+    background: #FFF
+    border-radius: rem(20px)
+    text-align: center
+    transform: translateY(10%)
+    @extend .transition
+    box-shadow: -2px 2px 2px rgba(0,0,0,.16)
+    +min-screen($screen-sm)
+      width: auto
+      margin-top: rem(70px)
+      padding: rem(40px) rem(102px) rem(60px)
+    ._active &
+      transform: translateY(0%)
+      transition-delay: .5s
+  &__title
+    font-size: rem(36px)
+    text-transform: uppercase
+    letter-spacing: rem(6px)
+    line-height: 1.2
+    font-family: "CeraProBlack"
+    +min-screen($screen-sm)
+      font-size: rem(44px)
+  &__text
+    width: 70%
+    margin: auto
+    margin-bottom: rem(20px)
+    font-size: rem(14px)
+    +min-screen($screen-sm)
+      width: auto
+      margin-bottom: rem(23px)
+      font-size: rem(16px)
+  &-logos
+    display: flex
+    
+    flex-wrap: wrap
+    justify-content: center
+   
+    &::-webkit-scrollbar
+      height: rem(3px)
+    &::-webkit-scrollbar-track
+      background: #EFF0F5
+      border-radius: rem(2px)
+    &::-webkit-scrollbar-thumb
+      background: #B1B3BE
+      border-radius: rem(2px)
+    +min-screen($screen-sm)
+      width: rem(550px)
+      flex-direction: column
+      height: rem(245px)
+      padding-bottom: rem(18px)
+      overflow-x: auto
+    &__item
+      display: flex
+      align-items: center
+      justify-content: center
+      
+      height: rem(80px)
+      flex: 0 0 calc(50% - #{rem(10px)})
+      margin: rem(5px)
+      border-radius: rem(6px)
+      border: 1px solid #EFF0F5
+      
+      img
+        max-width: 80%
+      +min-screen($screen-sm)
+        width: rem(172px)
+        height: rem(100px)
+        flex: 0 0 calc(50% - #{rem(16px)})
+        margin: rem(8px)
+        &:nth-of-type(1),
+        &:nth-of-type(2)
+          margin-left: 0
+        &:nth-last-of-type(1),
+        &:nth-last-of-type(2)
+          margin-right: 0
+    &-wrapper
+      position: relative
+    &-shadow
+      +min-screen($screen-sm)
+        position: absolute
+        right: 0
+        top: 0
+        height: calc(100% - #{rem(3px)})
+        width: 10%
+        background: linear-gradient(to right, transparent, #FFF)
+    &-arrow
+      position: absolute
+      top: 44%
+      +size(rem(24px))
+      cursor: pointer
+      z-index: 10
+      &._prev
+        left: calc(#{rem(-24px)} + #{rem(-30px)})
+        .icon
+          transform: rotate(90deg)
+      &._next
+        right: calc(#{rem(-24px)} + #{rem(-30px)})
+        .icon
+          transform: rotate(-90deg)
+  &-soc
+    margin-top: rem(20px)
+    padding: rem(20px) rem(15px)
+    border-radius: rem(20px)
+    border: 1px solid #EFF0F5
+    +min-screen($screen-sm)
+      padding: rem(20px) 
+    &__text
+      margin-bottom: rem(16px)
+      letter-spacing: rem(2px)
+      font-family: "CeraProBold"
+      font-size: rem(14px)
+      strong
+        display: block
+        margin-bottom: rem(5px)
+        font-size: rem(18px)
+        text-transform: uppercase
+        font-family: "CeraProBlack"
+        +min-screen($screen-sm)
+          font-size: rem(20px)
+  &-backgrounds
+    &__img
+      position: absolute
+      transition: 2s
+      transition-delay: 1s
+      &:nth-of-type(1)
+        top: 77%
+        left: -48%
+        transform: translate(-50%,50%)
+        transition-delay: 1.7s
+        +min-screen($screen-sm)
+          top: 60%
+          left: -7%
+      &:nth-of-type(2)
+        top: -18%
+        left: 71%
+        transform: translate(50%,-50%)
+        transition-delay: 2s
+        +max-screen($screen-sm)
+          display: none
+      &:nth-of-type(3)
+        top: -1%
+        left: 20%
+        width: rem(92px)
+        +max-screen($screen-sm)
+          display: none
+      &:nth-of-type(4)
+        top: 55%
+        left: 64%
+        z-index: 1
+        +max-screen($screen-sm)
+          display: none
+      &:nth-of-type(5)
+        top: -2%
+        left: -12%
+        transform: translate(-100%,20%)
+        transition-delay: 1.5s
+        +max-screen($screen-sm)
+          display: none
+
+      ._active &
+        transform: translate(0%,0%)

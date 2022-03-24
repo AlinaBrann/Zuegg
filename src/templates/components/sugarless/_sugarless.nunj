@@ -1,0 +1,84 @@
+{% from "../nav-arrows/_nav-arrows.nunj" import navArrows %}
+
+<section class="sugarless section" id="sugarless">
+  <!--<div class="sugarless__background background"></div>-->
+ 
+  <div class="slider sugarless-slider-wrapper">
+    <div class="sugarless-slider" data-slider="main">
+      <div data-slider-slides>
+        {% for slide in sugarless %}
+        <div class="sugarless-slide">
+          
+          <div class="sugarless-slide-img">
+            <img 
+              data-slider-when-active
+              class="sugarless-slide-img__jar"
+              src="media/img/sugarless/img_{{ slide.img }}.png" 
+              srcset="media/img/sugarless/img_{{ slide.img }}@2x.png 2x" 
+              alt="{{ slide.name }}">
+            <!--<img 
+              data-slider-when-active
+              class="sugarless-slide-img__fruit"
+              src="media/img/fruits/{{ slide.fruit }}.png" 
+              alt="{{ slide.name }}">-->
+          </div>
+          <div class="sugarless-slide__content">
+            <div class="sugarless-slide__tag" data-slider-when-active>Низкокалорийные конфитюры</div>
+            <!-- <div class="sugarless-slide__category" data-slider-when-active>Низкокалорийный конфитюр</div> -->
+            <div class="sugarless-slide__title" data-slider-when-active>{{ slide.name }}</div>
+            <div class="sugarless-slide-details" data-slider-when-active>
+              <div class="sugarless-slide-details__item">
+                {{ icon({
+                  width: '39',
+                  height: '39',
+                  name: 'icon_sugar',
+                  class: 'sugarless-slide-details__icon'
+                })}}
+                <span><b>БЕЗ</b> добавления сахара</span>
+              </div>
+              <div class="sugarless-slide-details__item">
+                {{ icon({
+                  width: '39',
+                  height: '39',
+                  name: 'icon_berry',
+                  class: 'sugarless-slide-details__icon'
+                })}}
+                <span><b>60%</b> содержания фруктов и&nbsp;ягод</span>
+              </div>
+            </div>
+            <div class="sugarless-slide__text" data-slider-when-active>{{ slide.text }}</div>
+          </div>
+          <img 
+            class="sugarless-slide__bg"
+            src="media/img/backgrounds/bg_{{ slide.bg }}.png" 
+            alt="">
+        </div>
+        {% endfor %}
+      </div>
+      
+    </div>
+  </div>
+  <div class="slider-preview">
+    <div class="sugarless-slider-nav" data-slider="mainNav">
+      <div data-slider-slides>
+        {% for slide in sugarless %}
+          <div class="slider-preview__item">
+            <img src="media/img/sugarless/img_{{ slide.img }}.png" alt="" class="sugarless-slide__img">
+          </div>
+        {% endfor %}
+      </div>
+       {{ navArrows({
+          class: "about-slider-buttons",
+          blue: false
+      })}}
+    </div>
+  </div>
+  <div class="section-down" data-anchor="about">
+    {{ icon({
+      width: '19',
+      height: '12',
+      name: 'chevron',
+      class: 'section-down__icon'
+    })}}
+  </div>
+</section>

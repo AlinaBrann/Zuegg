@@ -1,0 +1,115 @@
+<svg id="Сгруппировать_25652" data-name="Сгруппировать 25652" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.305" height="16.497" viewBox="0 0 130.305 16.497">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_777" data-name="Прямоугольник 777" width="130.305" height="16.497" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Контур_14078" data-name="Контур 14078" d="M0,11.512a8.078,8.078,0,0,0,2.5,5.832l1.4-1.35a6.211,6.211,0,0,1-1.927-4.481c0-.107,0-.212.008-.317L.01,11.1c-.007.138-.01.275-.01.414" transform="translate(0 -11.098)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.085" y1="1.328" x2="0.238" y2="1.328" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2e600"/>
+      <stop offset="0.14" stop-color="#f2e600"/>
+      <stop offset="0.3" stop-color="#e6e000"/>
+      <stop offset="0.58" stop-color="#c8d413"/>
+      <stop offset="0.89" stop-color="#a0c530"/>
+      <stop offset="1" stop-color="#a0c530"/>
+    </linearGradient>
+    <clipPath id="clip-path-3">
+      <path id="Контур_14079" data-name="Контур 14079" d="M9.449,0A8.668,8.668,0,0,0,3.484,2.416l1.4,1.349A6.674,6.674,0,0,1,9.526,1.906h0c.109,0,.219,0,.328.008l.1-1.9C9.824.005,9.692,0,9.56,0Z" transform="translate(-3.484 -0.001)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-0.331" y1="3.721" x2="-0.227" y2="3.721" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a5de"/>
+      <stop offset="0.06" stop-color="#00a5de"/>
+      <stop offset="0.54" stop-color="#3e87c8"/>
+      <stop offset="0.92" stop-color="#3283c5"/>
+      <stop offset="1" stop-color="#3283c5"/>
+    </linearGradient>
+    <clipPath id="clip-path-4">
+      <path id="Контур_14080" data-name="Контур 14080" d="M11.731,19.895c-.109,0-.219,0-.328-.009l-.1,1.9q.213.011.427.011h.047a8.677,8.677,0,0,0,6-2.417l-1.4-1.348a6.68,6.68,0,0,1-4.644,1.859" transform="translate(-11.304 -18.036)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-1.184" y1="0.944" x2="-1.078" y2="0.944" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a0c530"/>
+      <stop offset="0.12" stop-color="#a0c530"/>
+      <stop offset="0.27" stop-color="#83bc32"/>
+      <stop offset="0.87" stop-color="#179e36"/>
+      <stop offset="1" stop-color="#179e36"/>
+    </linearGradient>
+    <clipPath id="clip-path-5">
+      <path id="Контур_14081" data-name="Контур 14081" d="M11.894,0V1.906A6.7,6.7,0,0,1,15.6,3.013l1.665-1.183A8.7,8.7,0,0,0,11.934,0Z" transform="translate(-11.894 -0.001)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="-2.64" y1="3.203" x2="-2.439" y2="3.203" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3283c5"/>
+      <stop offset="0.06" stop-color="#3283c5"/>
+      <stop offset="0.79" stop-color="#0087c9"/>
+      <stop offset="1" stop-color="#0087c9"/>
+    </linearGradient>
+    <clipPath id="clip-path-6">
+      <path id="Контур_14082" data-name="Контур 14082" d="M20.195,10.9c0,.058,0,.114,0,.172a6.23,6.23,0,0,1-2.166,4.7l1.328,1.418a8.1,8.1,0,0,0,2.814-6.117,8.015,8.015,0,0,0-.137-1.478Z" transform="translate(-18.031 -9.591)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="-1.355" y1="1.734" x2="-1.267" y2="1.734" xlink:href="#linear-gradient-4"/>
+    <clipPath id="clip-path-7">
+      <path id="Контур_14083" data-name="Контур 14083" d="M3.074,18.987A8.675,8.675,0,0,0,9.413,21.7V19.8a6.647,6.647,0,0,1-4.871-2.09Z" transform="translate(-3.074 -17.708)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-6" x1="-0.582" y1="0.794" x2="-0.437" y2="0.794" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2e600"/>
+      <stop offset="0.13" stop-color="#f2e600"/>
+      <stop offset="0.3" stop-color="#eae200"/>
+      <stop offset="0.53" stop-color="#d7da00"/>
+      <stop offset="0.8" stop-color="#b7cd1f"/>
+      <stop offset="0.98" stop-color="#a0c530"/>
+      <stop offset="1" stop-color="#a0c530"/>
+    </linearGradient>
+    <clipPath id="clip-path-8">
+      <path id="Контур_14084" data-name="Контур 14084" d="M0,9.136H1.973a6.237,6.237,0,0,1,2.166-4.7L2.812,3.02A8.1,8.1,0,0,0,0,9.136" transform="translate(0 -3.02)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-7" x1="0.197" y1="2.74" x2="0.302" y2="2.74" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a0c530"/>
+      <stop offset="0.07" stop-color="#a0c530"/>
+      <stop offset="0.25" stop-color="#81bd58"/>
+      <stop offset="0.92" stop-color="#00a5de"/>
+      <stop offset="1" stop-color="#00a5de"/>
+    </linearGradient>
+  </defs>
+  <g id="Сгруппировать_25637" data-name="Сгруппировать 25637" transform="translate(0 0)">
+    <g id="Сгруппировать_25636" data-name="Сгруппировать 25636" clip-path="url(#clip-path)">
+      <path id="Контур_14075" data-name="Контур 14075" d="M103.406,7.443l-3.3,5.314h-.923L95.8,7.514v7.443H93.968v-10h2.318l3.4,5.444,3.379-5.444h2.172v10h-1.836Zm9.527-2.485,4.226,10h-1.95l-.985-2.371h-4.712l-.968,2.371h-1.863l4.167-10Zm-2.759,5.986h3.376l-1.689-4.1Zm10.274.9v3.113h-1.836v-10h3.421c3.244,0,4.624,1.128,4.624,3.386,0,2.33-1.616,3.5-4.624,3.5Zm0-5.242v3.6h1.717c1.7,0,2.585-.544,2.585-1.9,0-1.23-.763-1.7-2.554-1.7Zm10.071,8.356h-1.835v-10h1.835v4.2h1.541l3.3-4.2h2.231l-3.92,4.757,4.552,5.242h-2.349L132.15,10.63H130.52Zm15.721-4.327h-4.726v2.686h5.43v1.641h-7.266v-10h7.1V6.6h-5.27V8.987h4.729ZM156.767,6.6H153.3v8.356h-1.835V6.6h-3.407V4.958h8.706Z" transform="translate(-26.461 -1.458)" fill="#fecb00" fill-rule="evenodd"/>
+      <path id="Контур_14076" data-name="Контур 14076" d="M58.5,6.25,60.829,4.6H53.05v9.928h7.779V12.874h-5.56V10.331h4.743V8.68H55.269V6.253ZM47.179,8.467h-2.7V6.25h4.31L51.113,4.6H42.259v9.928h4.633c2.6,0,4.092-1.137,4.092-3.119,0-1.895-1.35-2.94-3.805-2.94m-.384,4.4H44.479V10.122h2.315c1.408,0,2.063.46,2.063,1.376,0,.935-.693,1.373-2.063,1.373M67.128,4.6H62.894v9.928h2.22V11.713h2.014c2.7,0,4.381-1.37,4.381-3.562S69.831,4.6,67.128,4.6m-.047,5.463H65.114V6.25h1.968c1.422,0,2.2.678,2.2,1.905s-.783,1.906-2.2,1.906M38.448,12.375a4.084,4.084,0,0,1-1.917.463,3.282,3.282,0,1,1,0-6.555,3.491,3.491,0,0,1,2.021.609l1.591-1.13-.1-.091a5.46,5.46,0,0,0-3.592-1.205,5.792,5.792,0,0,0-3.937,1.412A4.83,4.83,0,0,0,30.953,9.5,5,5,0,0,0,32.5,13.185a5.662,5.662,0,0,0,3.929,1.47,5.386,5.386,0,0,0,3.943-1.519l-1.437-1.02Z" transform="translate(-8.716 -1.313)" fill="#209f38" fill-rule="evenodd"/>
+      <path id="Контур_14077" data-name="Контур 14077" d="M17.385,4.539A8.156,8.156,0,0,1,18.41,6.18l-7.788,5.537L7.367,9.748V7.382l3.255,1.969Z" transform="translate(-2.075 -1.335)" fill="#209f38" fill-rule="evenodd"/>
+    </g>
+  </g>
+  <g id="Сгруппировать_25639" data-name="Сгруппировать 25639" transform="translate(0 7.835)">
+    <g id="Сгруппировать_25638" data-name="Сгруппировать 25638" clip-path="url(#clip-path-2)">
+      <path id="Контур_14086" data-name="Контур 14086" d="M.016.01l4.7.011.015,6.7-4.7-.011Z" transform="matrix(0.991, -0.132, 0.132, 0.991, -0.847, 0.1)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Сгруппировать_25641" data-name="Сгруппировать 25641" transform="translate(2.503 0.001)">
+    <g id="Сгруппировать_25640" data-name="Сгруппировать 25640" clip-path="url(#clip-path-3)">
+      <path id="Контур_14087" data-name="Контур 14087" d="M.01.015l6.9.015.01,4.539L.02,4.554Z" transform="matrix(0.992, -0.126, 0.126, 0.992, -0.492, 0.047)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+  <g id="Сгруппировать_25643" data-name="Сгруппировать 25643" transform="translate(8.121 12.732)">
+    <g id="Сгруппировать_25642" data-name="Сгруппировать 25642" clip-path="url(#clip-path-4)">
+      <path id="Контур_14088" data-name="Контур 14088" d="M.006.009,6.747.017l.006,4.234L.011,4.242Z" transform="matrix(0.997, -0.075, 0.075, 0.997, -0.294, 0.013)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+  <g id="Сгруппировать_25645" data-name="Сгруппировать 25645" transform="translate(8.545 0.001)">
+    <g id="Сгруппировать_25644" data-name="Сгруппировать 25644" clip-path="url(#clip-path-5)">
+      <path id="Контур_14089" data-name="Контур 14089" d="M.009.006,3.525.012l.01,5.645L.019,5.651Z" transform="translate(-0.306 2.991) rotate(-84.37)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+  <g id="Сгруппировать_25647" data-name="Сгруппировать 25647" transform="translate(12.954 6.771)">
+    <g id="Сгруппировать_25646" data-name="Сгруппировать 25646" clip-path="url(#clip-path-6)">
+      <path id="Контур_14090" data-name="Контур 14090" d="M.008.014,7.967.028l.008,4.88L.016,4.894Z" transform="translate(-0.77 7.528) rotate(-84.36)" fill="url(#linear-gradient-5)"/>
+    </g>
+  </g>
+  <g id="Сгруппировать_25649" data-name="Сгруппировать 25649" transform="translate(2.208 12.501)">
+    <g id="Сгруппировать_25648" data-name="Сгруппировать 25648" clip-path="url(#clip-path-7)">
+      <path id="Контур_14091" data-name="Контур 14091" d="M.017.013,4.9.026,4.921,6.9.035,6.885Z" transform="translate(-0.615 3.927) rotate(-81.427)" fill="url(#linear-gradient-6)"/>
+    </g>
+  </g>
+  <g id="Сгруппировать_25651" data-name="Сгруппировать 25651" transform="translate(0 2.132)">
+    <g id="Сгруппировать_25650" data-name="Сгруппировать 25650" clip-path="url(#clip-path-8)">
+      <path id="Контур_14092" data-name="Контур 14092" d="M.015.02,6.739.04l.015,5.138L.03,5.158Z" transform="translate(-1.069 5.949) rotate(-80.174)" fill="url(#linear-gradient-7)"/>
+    </g>
+  </g>
+</svg>

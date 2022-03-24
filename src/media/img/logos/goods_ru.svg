@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119.167" height="30" viewBox="0 0 119.167 30">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Контур_14127" data-name="Контур 14127" d="M0,0H119.167V30H0Z" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.588" y1="0.962" x2="0.075" y2="0.064" gradientUnits="objectBoundingBox">
+      <stop offset="0.144" stop-color="#f2e913"/>
+      <stop offset="0.304" stop-color="#e7e518"/>
+      <stop offset="0.582" stop-color="#cadb26"/>
+      <stop offset="0.891" stop-color="#a3cd39"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.087" y1="0.585" x2="0.877" y2="0.083" gradientUnits="objectBoundingBox">
+      <stop offset="0.059" stop-color="#0fa8e0"/>
+      <stop offset="0.538" stop-color="#0099f9"/>
+      <stop offset="0.923" stop-color="#0291eb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.02" y1="0.572" x2="0.921" y2="0.217" gradientUnits="objectBoundingBox">
+      <stop offset="0.123" stop-color="#a3cd39"/>
+      <stop offset="0.285" stop-color="#86c339"/>
+      <stop offset="0.869" stop-color="#21a038"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-0.077" y1="0.401" x2="0.867" y2="0.905" gradientUnits="objectBoundingBox">
+      <stop offset="0.057" stop-color="#0291eb"/>
+      <stop offset="0.79" stop-color="#0c8acb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.078" y1="0.397" x2="0.937" y2="0.891" gradientUnits="objectBoundingBox">
+      <stop offset="0.132" stop-color="#f2e913"/>
+      <stop offset="0.298" stop-color="#ebe716"/>
+      <stop offset="0.531" stop-color="#d9e01f"/>
+      <stop offset="0.802" stop-color="#bbd62d"/>
+      <stop offset="0.983" stop-color="#a3cd39"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.364" y1="1.038" x2="0.886" y2="0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0.07" stop-color="#a3cd39"/>
+      <stop offset="0.26" stop-color="#81c55f"/>
+      <stop offset="0.922" stop-color="#0fa8e0"/>
+    </linearGradient>
+  </defs>
+  <g id="goods_ru" clip-path="url(#clip-path)">
+    <path id="Контур_14117" data-name="Контур 14117" d="M15.556,3.9A8.03,8.03,0,0,1,16.518,5.5L9.2,10.876,6.145,8.964v-2.3L9.2,8.576,15.556,3.9Z" transform="translate(-1.024 -0.651)" fill="#21a038"/>
+    <path id="Контур_14118" data-name="Контур 14118" d="M2.031,9.7c0-.1,0-.206.008-.308L.186,9.3a7.975,7.975,0,0,0,2.342,6.064l1.313-1.31A6.137,6.137,0,0,1,2.031,9.7Z" transform="translate(-0.029 -1.55)" fill="url(#linear-gradient)"/>
+    <path id="Контур_14119" data-name="Контур 14119" d="M8.676,2.02c.1,0,.206,0,.308.008L9.077.18A8.015,8.015,0,0,0,3,2.516L4.311,3.827A6.163,6.163,0,0,1,8.676,2.02Z" transform="translate(-0.5 -0.028)" fill="url(#linear-gradient-2)"/>
+    <path id="Контур_14120" data-name="Контур 14120" d="M9.733,16.813c-.1,0-.206,0-.308-.008l-.092,1.848a8.015,8.015,0,0,0,6.079-2.336L14.1,15.007A6.168,6.168,0,0,1,9.733,16.813Z" transform="translate(-1.555 -2.501)" fill="url(#linear-gradient-3)"/>
+    <path id="Контур_14121" data-name="Контур 14121" d="M13.294,3.095l1.562-1.148A8.006,8.006,0,0,0,9.812.17V2.02a6.15,6.15,0,0,1,3.482,1.075Z" transform="translate(-1.635 -0.028)" fill="url(#linear-gradient-4)"/>
+    <path id="Контур_14122" data-name="Контур 14122" d="M18.67,9.494a7.985,7.985,0,0,0-.129-1.435l-1.727,1.27,0,.164a6.144,6.144,0,0,1-2.033,4.566l1.246,1.375a7.98,7.98,0,0,0,2.642-5.94Z" transform="translate(-2.464 -1.343)" fill="#21a038"/>
+    <path id="Контур_14123" data-name="Контур 14123" d="M8.622,16.767a6.167,6.167,0,0,1-4.577-2.029L2.668,15.981a8.018,8.018,0,0,0,5.954,2.637v-1.85Z" transform="translate(-0.445 -2.456)" fill="url(#linear-gradient-5)"/>
+    <path id="Контур_14124" data-name="Контур 14124" d="M4.065,4.029,2.818,2.654A7.981,7.981,0,0,0,.176,8.594H2.031A6.138,6.138,0,0,1,4.065,4.029Z" transform="translate(-0.029 -0.442)" fill="url(#linear-gradient-6)"/>
+    <path id="Контур_14125" data-name="Контур 14125" d="M50.457,5.472,52.6,3.894H45.425v9.468H52.6V11.787h-5.13V9.362h4.376V7.785H47.472V5.472ZM40,7.587H37.512V5.471h3.98l2.146-1.577H35.462v9.468H39.74c2.4,0,3.774-1.083,3.774-2.975,0-1.806-1.247-2.8-3.509-2.8Zm-.357,4.2H37.513V9.163h2.136c1.3,0,1.9.439,1.9,1.313,0,.891-.642,1.311-1.9,1.311ZM58.417,3.894H54.51v9.468h2.048V10.68h1.86c2.5,0,4.043-1.308,4.043-3.4s-1.55-3.388-4.043-3.388Zm-.044,5.211H56.557V5.472h1.816c1.312,0,2.036.645,2.036,1.818s-.724,1.817-2.036,1.817ZM31.947,11.313a3.659,3.659,0,0,1-1.768.442A3.056,3.056,0,0,1,26.99,8.627,3.054,3.054,0,0,1,30.178,5.5a3.125,3.125,0,0,1,1.863.582L33.51,5l-.1-.083A4.921,4.921,0,0,0,30.1,3.77a5.245,5.245,0,0,0-3.633,1.346,4.693,4.693,0,0,0-1.437,3.461,4.848,4.848,0,0,0,1.432,3.512,5.136,5.136,0,0,0,3.624,1.4,4.886,4.886,0,0,0,3.64-1.449c-.675-.495-1.325-.974-1.325-.974l-.453.247Z" transform="translate(-4.171 -0.628)" fill="#21a038"/>
+    <path id="Контур_14126" data-name="Контур 14126" d="M34.335,23l-3.05,5.028h-.853l-3.115-4.958v7.041H25.623v-9.46h2.142L30.908,25.8l3.116-5.148h2.005v9.46H34.335V23ZM44.413,26.01H40.051v2.54h5.013V30.1H38.357V20.645h6.557V22.2H40.051v2.257h4.362ZM53.38,22.2H48.638v7.9H46.945V20.645H53.38V22.2Zm8.711,7.9h-1.8l-.907-2.243H55.034L54.14,30.1H52.42l3.847-9.459H58.19l3.9,9.458Zm-3.333-3.8L57.2,22.427l-1.558,3.879ZM74.937,23l-3.05,5.028h-.853l-3.116-4.958v7.04H66.225V20.647h2.142l3.143,5.147,3.115-5.147h2.006v9.458H74.937ZM87.5,30.1H85.7l-.91-2.243H80.438l-.9,2.243H77.824l3.847-9.459h1.923L87.5,30.1Zm-3.331-3.8-1.558-3.879-1.558,3.879h3.117Zm6.232.853v2.948H88.7v-9.46h3.156a5.255,5.255,0,0,1,3.258.8,2.883,2.883,0,0,1,1.01,2.4,2.922,2.922,0,0,1-1.085,2.487,5.2,5.2,0,0,1-3.183.825H90.4Zm0-4.961V25.6h1.586a3.166,3.166,0,0,0,1.787-.411,1.562,1.562,0,0,0,.595-1.386,1.377,1.377,0,0,0-.555-1.243,3.386,3.386,0,0,0-1.8-.365H90.4ZM99.551,30.1H97.858V20.645h1.693v3.972h1.422l3.048-3.972h2.059l-3.618,4.5,4.2,4.958H104.5l-3.441-4.093h-1.5Zm14.375-4.094h-4.362v2.54h5.013V30.1h-6.707V20.645h6.558V22.2h-4.863v2.257h4.362ZM123.5,22.2h-3.2v7.9H118.61V22.2h-3.143V20.645H123.5V22.2h0Z" transform="translate(-4.27 -3.441)" fill="#632895"/>
+  </g>
+</svg>
