@@ -15,6 +15,7 @@ yarn install
 
 ```
 npm install
+
 ```
 
 #### 2. Запустить Gulp для разработки:
