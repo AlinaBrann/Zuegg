@@ -1,13 +1,13 @@
 {% from "../nav-arrows/_nav-arrows.nunj" import navArrows %}
 
-<section class="traditional section" id="traditional">
-  <div class="traditional__background background"></div>
+<section class="big section" id="big">
+  <div class="big__background background"></div>
   <div class="slider-preview">
-    <div class="traditional-slider-nav" data-slider="mainNav">
+    <div class="big-slider-nav" data-slider="mainNav">
       <div data-slider-slides>
-        {% for slide in traditional %}
+        {% for slide in big %}
           <div class="slider-preview__item">
-            <img src="media/img/confiture/img_{{ slide.img }}.png" alt="" class="traditional-slide__img">
+            <img src="media/img/big/img_{{ slide.img }}.png" alt="" class="big-slide__img">
           </div>
         {% endfor %}
       </div>
@@ -17,46 +17,29 @@
       })}}
     </div>
   </div>
-  <div class="slider traditional-slider-wrapper">
-    <div class="traditional-slider" data-slider="main">
+  <div class="slider big-slider-wrapper">
+    <div class="big-slider" data-slider="main">
       <div data-slider-slides>
-        {% for slide in traditional %}
-        <div class="traditional-slide">
-          <div class="traditional-slide__content">
-            <div class="traditional-slide__tag" data-slider-when-active>Традиционные конфитюры</div>
-            
-            <div class="traditional-slide__title" data-slider-when-active>{{ slide.name }}</div>
-            <div class="traditional-slide-details" data-slider-when-active>
-              <div class="traditional-slide-details__item">
-                {{ icon({
-                  width: '39',
-                  height: '39',
-                  name: 'icon_natural',
-                  class: 'traditional-slide-details__icon'
-                })}}
-                <span>Натуральный<br>состав</span>
-              </div>
-              <div class="traditional-slide-details__item">
-                {{ icon({
-                  width: '39',
-                  height: '39',
-                  name: 'icon_berry',
-                  class: 'traditional-slide-details__icon'
-                })}}
-                <span>{{ slide.composition }}</span>
-              </div>
+        {% for slide in big %}
+        <div class="big-slide">
+          <div class="big-slide__content">
+            <div class="big-slide__tag" data-slider-when-active>НОВИНКА: LA PASTICCERA*</div>
+            <div class="big-slide__subtitle" data-slider-when-active>Большой формат</div>
+            <div class="big-slide__title" data-slider-when-active>{{ slide.name }}</div>
+            <div class="big-slide-details" data-slider-when-active>
+
             </div>
-            <div class="traditional-slide__text" data-slider-when-active>{{ slide.text }}</div>
+            <div class="big-slide__text" data-slider-when-active>{{ slide.text }}</div>
           </div>
-          <div class="traditional-slide-img">
+          <div class="big-slide-img">
             <img 
               data-slider-when-active
-              class="traditional-slide-img__jar"
-              src="media/img/confiture/img_{{ slide.img }}.png" 
-              srcset="media/img/confiture/img_{{ slide.img }}@2x.png 2x" 
+              class="big-slide-img__jar"
+              src="media/img/big/img_{{ slide.img }}.png" 
+              srcset="media/img/big/img_{{ slide.img }}@2x.png 2x" 
               alt="{{ slide.name }}">
               {% if slide.new %}
-                <svg data-slider-when-active class="traditional-slide-img__sticker" width="95" height="95" viewBox="0 0 95 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg data-slider-when-active class="big-slide-img__sticker" width="95" height="95" viewBox="0 0 95 95" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="47.5" cy="47.5" r="47.5" fill="#E66914"/>
                   <path d="M12.912 43.08H14.532V46.116H18.036V43.08H19.656V51H18.036V47.58H14.532V51H12.912V43.08ZM26.4107 51.144C25.6427 51.144 24.9387 50.964 24.2987 50.604C23.6587 50.244 23.1507 49.752 22.7747 49.128C22.3987 48.496 22.2107 47.8 22.2107 47.04C22.2107 46.28 22.3987 45.588 22.7747 44.964C23.1507 44.332 23.6587 43.836 24.2987 43.476C24.9387 43.116 25.6427 42.936 26.4107 42.936C27.1787 42.936 27.8827 43.116 28.5227 43.476C29.1707 43.836 29.6827 44.332 30.0587 44.964C30.4427 45.588 30.6347 46.28 30.6347 47.04C30.6347 47.8 30.4427 48.496 30.0587 49.128C29.6827 49.752 29.1707 50.244 28.5227 50.604C27.8827 50.964 27.1787 51.144 26.4107 51.144ZM26.4227 49.644C26.9027 49.644 27.3347 49.536 27.7187 49.32C28.1107 49.096 28.4147 48.788 28.6307 48.396C28.8547 47.996 28.9667 47.544 28.9667 47.04C28.9667 46.544 28.8547 46.1 28.6307 45.708C28.4147 45.308 28.1107 44.996 27.7187 44.772C27.3347 44.548 26.9027 44.436 26.4227 44.436C25.9347 44.436 25.4987 44.548 25.1147 44.772C24.7307 44.988 24.4267 45.296 24.2027 45.696C23.9867 46.088 23.8787 46.536 23.8787 47.04C23.8787 47.544 23.9867 47.996 24.2027 48.396C24.4267 48.788 24.7307 49.096 25.1147 49.32C25.4987 49.536 25.9347 49.644 26.4227 49.644ZM37.9345 46.716C38.3745 46.876 38.7185 47.124 38.9665 47.46C39.2145 47.788 39.3385 48.192 39.3385 48.672C39.3385 49.12 39.2265 49.524 39.0025 49.884C38.7865 50.236 38.4785 50.512 38.0785 50.712C37.6865 50.904 37.2385 51 36.7345 51H33.2065V43.08H36.0145C36.4945 43.08 36.9265 43.176 37.3105 43.368C37.6945 43.552 37.9905 43.812 38.1985 44.148C38.4145 44.476 38.5225 44.856 38.5225 45.288C38.5225 45.864 38.3265 46.34 37.9345 46.716ZM34.7665 44.472V46.284H35.8825C36.2105 46.284 36.4625 46.204 36.6385 46.044C36.8225 45.876 36.9145 45.652 36.9145 45.372C36.9145 45.092 36.8225 44.872 36.6385 44.712C36.4625 44.552 36.2105 44.472 35.8825 44.472H34.7665ZM36.6145 49.608C36.9665 49.608 37.2425 49.52 37.4425 49.344C37.6425 49.168 37.7425 48.924 37.7425 48.612C37.7425 48.308 37.6425 48.068 37.4425 47.892C37.2425 47.708 36.9665 47.616 36.6145 47.616H34.7665V49.608H36.6145ZM48.6517 42.936V51H47.0317V46.092L42.3877 51.144H41.8597V43.08H43.4797V47.94L48.1117 42.936H48.6517ZM51.6612 43.08H53.2812V46.116H56.7852V43.08H58.4052V51H56.7852V47.58H53.2812V51H51.6612V43.08ZM66.4319 51L63.0359 46.872V51H61.4159V43.08H63.0359V46.752L66.0599 43.08H67.9919L64.9559 46.812L68.3879 51H66.4319ZM75.323 49.968H72.083L71.639 51H69.899L73.439 42.936H73.979L77.507 51H75.767L75.323 49.968ZM73.703 45.96L72.647 48.636H74.759L73.703 45.96ZM79.9806 43.08H81.9126L81.6126 48.096H80.2926L79.9806 43.08ZM80.9766 51.144C80.6486 51.144 80.3766 51.04 80.1606 50.832C79.9526 50.616 79.8486 50.348 79.8486 50.028C79.8486 49.716 79.9526 49.452 80.1606 49.236C80.3766 49.02 80.6486 48.912 80.9766 48.912C81.2886 48.912 81.5486 49.02 81.7566 49.236C81.9726 49.452 82.0806 49.716 82.0806 50.028C82.0806 50.348 81.9726 50.616 81.7566 50.832C81.5486 51.04 81.2886 51.144 80.9766 51.144Z" fill="white"/>
                 </svg>
@@ -64,12 +47,12 @@
 
             <!--<img 
               data-slider-when-active
-              class="traditional-slide-img__fruit"
+              class="big-slide-img__fruit"
               src="media/img/fruits/{{ slide.fruit }}.png" 
               alt="{{ slide.name }}">-->
           </div>
           <img 
-            class="traditional-slide__bg"
+            class="big-slide__bg"
             src="media/img/backgrounds/bg_{{ slide.bg }}.png" 
             alt="">
         </div>

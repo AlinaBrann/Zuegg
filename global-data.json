@@ -5,10 +5,6 @@
 			"path": "traditional"
 		},
 		{
-			"name": "Новинка: ZERO SUGAR",
-			"path": "novelty"
-		},
-		{
 			"name": "Низкокалорийные<small>конфитюры</small>",
 			"path": "sugarless"
 		},
@@ -24,6 +20,15 @@
 		}
 	],
 	"traditional": [
+		{
+			"name": "красный апельсин",
+			"img": "15",
+			"bg": "21",
+			"composition": "<b>50%</b> содержание ягод",
+			"new": true,
+			"fruit": "blood_orange",
+			"text": "<p>Красный сицилийский апельсин это король всех апельсинов по&nbsp;полезности, во&nbsp;вкусе присутсвуют нотки винограда, клубники и&nbsp;малины, что делает его более необычным и&nbsp;ароматным.</p> <p>Насладиться этим фруктом можно с&nbsp;новинкой от&nbsp;Zuegg&nbsp;&mdash; конфитюр из&nbsp;настоящих итальянских красных апельсинов удивит своим вкусом и&nbsp;ароматом всех ценителей цитрусовых.</p>"
+		},
 		{
 			"name": "Черешня",
 			"img": "14",
@@ -184,6 +189,43 @@
 			"text": "<p>Конфитюр из&nbsp;любимых с&nbsp;детства лесных ягод. Сбалансированное сочетание терпкости ежевики, клубничной сладости, насыщенности малины и&nbsp;нежной черники в&nbsp;одно мгновение перенесет вас на&nbsp;лесную опушку и&nbsp;скрасит самый ненастный день.</p> <p>Низкокалорийные конфитюры Zuegg содержат высокий процент фруктов и&nbsp;ягод (60%), тщательно отобранных и&nbsp;собранных вручную в&nbsp;момент, когда они достигли нужной степени созревания.</p>"
 		}
 	],
+	"big": [
+		{
+			"name": "клубника",
+			"img": "5",
+			"bg": "22",
+			"fruit": "strawberry",
+			"text": "<p>Ароматный клубничный конфитюр идеально подойдет для приготовления ваших кулинарных шедевров благодаря своей термостойкости и&nbsp;нежной текстуре.</p> <p>Попробуйте открытый слоеный пирог или конвертики с&nbsp;конфитюром и&nbsp;свежей клубникой. Zuegg&nbsp;&mdash; это история одной итальянской семьи, её&nbsp;садов, мудрости и&nbsp;традиций. </p>"
+		},
+		{
+			"name": "Абрикос",
+			"img": "1",
+			"bg": "23",
+			"fruit": "apricot",
+			"text": "<p>Абрикосовый конфитюр с&nbsp;медовыми оттенками идеально подойдет для приготовления ваших кулинарных шедевров благодаря своей термостойкости и&nbsp;нежной текстуре.</p> <p>Попробуйте классическую песочную итальянскую кростату с&nbsp;абрикосовым конфитюром. Zuegg&nbsp;&mdash; это история одной итальянской семьи, её&nbsp;садов, мудрости и&nbsp;традиций.</p>"
+		},
+		{
+			"name": "черешня",
+			"img": "2",
+			"bg": "24",
+			"fruit": "sweet_cherry",
+			"text": "<p>Черешневый конфитюр с&nbsp;цветочным ароматом спелой ягоды идеально подойдет для приготовления ваших кулинарных шедевров благодаря своей термостойкости и&nbsp;нежной текстуре.</p> <p>Попробуйте брауни с&nbsp;начинкой из&nbsp;конфитюра и&nbsp;стружкой тёмного шоколада. Zuegg&nbsp;&mdash; это история одной итальянской семьи, её&nbsp;садов, мудрости и&nbsp;традиций. </p>"
+		},
+		{
+			"name": "лесные ягоды",
+			"img": "2",
+			"bg": "25",
+			"fruit": "berries",
+			"text": "<p>Конфитюр из&nbsp;лесных ягод идеально подойдет для приготовления ваших кулинарных шедевров благодаря своей термостойкости и&nbsp;нежной текстуре.</p> <p>Попробуйте капкейки с&nbsp;начинкой из&nbsp;конфитюра, с&nbsp;шапкой воздушных сливок и&nbsp;любимых свежих ягод. Zuegg&nbsp;&mdash; это история одной итальянской семьи, её&nbsp;садов, мудрости и&nbsp;традиций.</p>"
+		},
+		{
+			"name": "Персик",
+			"img": "4",
+			"bg": "21",
+			"fruit": "peach",
+			"text": "<p>Конфитюр из&nbsp;ароматных средиземноморских персиков идеально подойдет для приготовления ваших кулинарных шедевров благодаря своей термостойкости и&nbsp;нежной текстуре.</p> <p>Попробуйте классический штрудель с&nbsp;яблоками и&nbsp;персиковым конфитюром, добавив горстку любимых орехов. Zuegg&nbsp;&mdash; это история одной итальянской семьи, её&nbsp;садов, мудрости и&nbsp;традиций.</p>"
+		}
+	],
 	"novelty": {
 		"title": "ZERO SUGAR",
 		"text": "<p>Благодаря многолетнему опыту, любви семьи Цуегг к&nbsp;фруктам и&nbsp;внимательному отношению к&nbsp;своему потребителю родился рецепт новой линейки конфитюров &laquo;Без добавления сахара&raquo;.</p> <p>Конфитюры &laquo;Без добавления сахара&raquo; содержат высокий процент фруктов и&nbsp;ягод (60%), тщательно отобранных и&nbsp;собранных вручную в&nbsp;момент, когда они достигли нужной степени созревания.</p> <p>Во всех конфитюрах Zuegg отсутствует глютен, а&nbsp;также его следы, нет красителей и&nbsp;консервантов, поэтому он&nbsp;подойдет для людей, которые придерживаются специального питания.</p>",
@@ -206,25 +248,7 @@
 				"name": "ozon", 
 				"attr": "ozon",
 				"gtm": ["external", "click", "ozon"],
-				"link": "https://www.ozon.ru/category/supermarket-dzhemy-31562000/zuegg-141328666/?miniapp=supermarket"
-			},
-			{
-				"name": "samokat", 
-				"attr": "samokat",
-				"gtm": ["external", "click", "samokat"],
-				"link": "https://samokat.ru/"
-			},
-			{
-				"name": "yandex_lavka", 
-				"attr": "lavka",
-				"gtm": ["external", "click", "yandex_lavka"],
-				"link": "https://lavka.yandex.ru/search?goodId=c732908fe07a44e28d94740a2344a3be000200010001&text=Zuegg"
-			},
-			{
-				"name": "perekrestok", 
-				"attr": "vprok",
-				"gtm": ["external", "click", "perekrestok_vprok"],
-				"link": "https://www.vprok.ru/catalog/search?text=zuegg&sort=relevance_desc"
+				"link": "https://www.ozon.ru/brand/zuegg-141328666/?seller=0"
 			},
 			{
 				"name": "yandex_market", 
@@ -236,19 +260,7 @@
 				"name": "wildberries", 
 				"attr": "wildberries",
 				"gtm": ["external", "click", "wildberries"],
-				"link": "https://www.wildberries.ru/brands/zuegg"
-			},
-			{
-				"name": "okey", 
-				"attr": "okey",
-				"gtm": ["external", "click", "okey"],
-				"link": "https://www.okeydostavka.ru/webapp/wcs/stores/servlet/SearchDisplay?categoryId=&storeId=10151&catalogId=12051&langId=-20&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=72&searchTerm=zuegg"
-			},
-			{
-				"name": "sber_market", 
-				"attr": "sbermarket",
-				"gtm": ["external", "click", "sbermarket"],
-				"link": "https://sbermarket.ru/"
+				"link": "https://www.wildberries.ru/catalog/0/search.aspx?page=1&sort=popular&search=zuegg&fsupplier=-100"
 			},
 			{
 				"name": "metro", 
@@ -257,10 +269,10 @@
 				"link": "https://msk.metro-cc.ru/search?q=ZUEGG&order=name_asc"
 			},
 			{
-				"name": "globus", 
-				"attr": "globus",
-				"gtm": ["external", "click", "globus"],
-				"link": "https://online.globus.ru/catalog/bakaleya/filter/brands-is-186935/apply/"
+				"name": "perekrestok", 
+				"attr": "vprok",
+				"gtm": ["external", "click", "perekrestok_vprok"],
+				"link": "https://www.vprok.ru/catalog/search?text=zuegg&sort=relevance_desc"
 			},
 			{
 				"name": "lenta", 
@@ -269,17 +281,79 @@
 				"link": "https://lenta.com/search/?searchText=zuegg"
 			},
 			{
+				"name": "globus", 
+				"attr": "globus",
+				"gtm": ["external", "click", "globus"],
+				"link": "https://online.globus.ru/search/?q=zuegg"
+			},
+			{
+				"name": "okey", 
+				"attr": "okey",
+				"gtm": ["external", "click", "okey"],
+				"link": "https://www.okeydostavka.ru/webapp/wcs/stores/servlet/SearchDisplay?categoryId=&storeId=10151&catalogId=12051&langId=-20&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=72&searchTerm=zuegg"
+			},
+			{
+				"name": "auchan", 
+				"attr": "auchan",
+				"gtm": ["external", "click", "auchan"],
+				"link": "https://www.auchan.ru/?utm_referrer=https%3A%2F%2Fyandex.ru%2F&digiSearch=true&term=zuegg&params=%7Csort%3DDEFAULT"
+			},
+			{
+				"name": "vkusvill", 
+				"attr": "vkusvill",
+				"gtm": ["external", "click", "vkusvill"],
+				"link": "https://vkusvill.ru/search/?q=zuegg&type=products"
+			},
+			{
 				"name": "magnit", 
 				"attr": "magnit",
 				"gtm": ["external", "click", "magnit"],
 				"link": "https://magnit.ru/dostavka/?utm_source=yandex&utm_medium=cpc&utm_campaign=rta|s_yandex|b_express|at_webr_msk|kw_brand-non-pure|pl_search|pt_cpc|62002570|&utm_content=32858437694||cid|62002570|gid|4625074401|aid|11010334554|adp|no|pos|premium|1|src|search_none|dvc|desktop|reg|%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0|&utm_term=%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82&yclid=6630147544909142405"
 			},
 			{
+				"name": "yandex_lavka", 
+				"attr": "lavka",
+				"gtm": ["external", "click", "yandex_lavka"],
+				"link": "https://lavka.yandex.ru/search?goodId=c732908fe07a44e28d94740a2344a3be000200010001&text=Zuegg"
+			},
+			{
+				"name": "samokat", 
+				"attr": "samokat",
+				"gtm": ["external", "click", "samokat"],
+				"link": "https://samokat.ru/"
+			},
+			{
+				"name": "spar", 
+				"attr": "spar",
+				"gtm": ["external", "click", "spar"],
+				"link": "https://myspar.ru/#/search/zuegg"
+			},
+			{
+				"name": "mgnl", 
+				"attr": "mgnl",
+				"gtm": ["external", "click", "mgnl"],
+				"link": "https://shop.mgnl.ru/search/?query=zuegg"
+			},
+			{
+				"name": "yarche", 
+				"attr": "yarche",
+				"gtm": ["external", "click", "yarche"],
+				"link": "https://yarcheplus.ru/search?query=zuegg"
+			},
+			{
 				"name": "goods_ru",
 				"attr": "sbermegamarket", 
 				"gtm": ["external", "click", "sbermegamarket"],
-				"link": "https://sbermegamarket.ru/catalog/details/konfityur-zuegg-ekstra-malina-320-g-100028423323/#?related_search=zuegg"
+				"link": "https://sbermegamarket.ru/catalog/?q=zuegg"
 			},
+			
+			{
+				"name": "sber_market", 
+				"attr": "sbermarket",
+				"gtm": ["external", "click", "sbermarket"],
+				"link": "https://sbermarket.ru/"
+			},
+			
 			{
 				"name": "utconos", 
 				"attr": "utkonos",

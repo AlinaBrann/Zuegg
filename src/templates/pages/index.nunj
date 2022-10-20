@@ -14,6 +14,7 @@
 	{# <main class="fullpage"> #}
 		{% include '../components/hero/_hero.nunj' %}
 		{% include '../components/traditional/_traditional.nunj' %}
+		{% include '../components/big/_big.nunj' %}
 		{% include '../components/novelty/_novelty.nunj' %}
 		{% include '../components/sugarless/_sugarless.nunj' %}
 		{% include '../components/about/_about.nunj' %}

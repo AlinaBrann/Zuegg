@@ -1,4 +1,4 @@
-.traditional
+.big
   display: flex
   max-width: 100%
   flex-direction: column
@@ -68,7 +68,7 @@
       display: inline-block
       margin-bottom: rem(15px)
       padding: rem(11px) rem(20px)
-      background: $blue
+      background: #E66914
       border-radius: rem(20px)
       letter-spacing: 1px
       font-size: rem(10px)
@@ -95,6 +95,12 @@
       +min-screen($screen-sm)
         margin-bottom: rem(26px)
         font-size: rem(44px)
+    &__subtitle 
+      margin-bottom: rem(10px)
+      font-size: rem(18px)
+      +min-screen($screen-sm)
+        margin-bottom: rem(15px)
+        font-size: rem(24px)
     &-details
       position: relative
       display: flex
@@ -102,10 +108,10 @@
       justify-content: space-between
       margin-bottom: rem(40px)
       +min-screen($screen-sm)
-        margin-bottom: rem(54px)
+        margin-bottom: rem(24px)
       &:after
         +b
-        top: calc(100% + #{rem(23px)})
+        top: 0
         +size(rem(64px), rem(2px))
         background: $blue
       &__item

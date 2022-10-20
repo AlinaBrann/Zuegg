@@ -27,6 +27,7 @@ const OPTIONS_BY_TYPE = {
 				breakpoint: 1025,
 				settings: {
 					slidesToShow: 3,
+					adaptiveHeight: true,
 					vertical: false,
 					centerPadding: "0px",
 				},

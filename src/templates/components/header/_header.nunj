@@ -20,13 +20,13 @@
     class="header__stickerpack">
     <img
       class="hidden-xs" 
-      src="media/img/stickerpack.png" 
-      srcset="media/img/stickerpack@2x.png 2x" 
+      src="../media/img/stickerpack.png" 
+      srcset="../media/img/stickerpack@2x.png 2x" 
       alt="">
     <img
       class="visible-xs" 
-      src="media/img/stickerpack-small.png" 
-      srcset="media/img/stickerpack-small@2x.png 2x" 
+      src="../media/img/stickerpack-small.png" 
+      srcset="../media/img/stickerpack-small@2x.png 2x" 
       alt="">
   </a>
 	<div class="header-menu-wrapper">
