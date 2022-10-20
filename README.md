@@ -1,47 +1,27 @@
-# Zuegg
+# Chaban
 
-
-## Старт проекта
-
-#### 1. Установить зависимости:
-
-с помощью yarn (быстрее)
-
+## Project setup
 ```
 yarn install
 ```
 
-или с помощью npm (медленнее):
-
+### Compiles and hot-reloads for development
 ```
-npm install
-
+yarn serve
 ```
 
-#### 2. Запустить Gulp для разработки:
-
+### Compiles and minifies for production
 ```
-npm start
-```
-
-#### 3. Открыть следующий URL - [`http://localhost:9000/`](http://localhost:9000/).
-
-## Команды
-
-#### Запустить проект для разработки:
-
-```
-npm start
+yarn build
 ```
 
-#### Собрать проект для продакшена:
+### Lints and fixes files
+```
+yarn lint
+```
 
-```
-npm run build
-```
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
-#### Создание архива `build.zip` для продакшена:
-
-```
-npm run zip
-```
+lafefih429@dnitem.com
+Tx691236

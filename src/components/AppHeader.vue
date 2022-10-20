@@ -1,0 +1,124 @@
+<template>
+  <header class="header" :class="{ _modified: headerModified }">
+    <button class="header-menu-button" @click="showBurger()">
+      <img src="../assets/images/icons/menu.svg" alt="" />
+    </button>
+    <img src="../assets/images/logo.svg" alt="" class="header__logo" />
+    <a
+      href="https://t.me/addstickers/ZUEGG_stiker"
+      target="_blank"
+      class="header__stickerpack"
+    >
+      <img
+        class="hidden-xs"
+        src="../assets/images/stickerpack.png"
+        srcset="../assets/images/stickerpack@2x.png 2x"
+        alt=""
+      />
+      <img
+        class="visible-xs"
+        src="../assets/images/stickerpack-small.png"
+        srcset="../assets/images/stickerpack-small@2x.png 2x"
+        alt=""
+      />
+    </a>
+    <div class="header-menu-wrapper">
+      <div class="header-menu-wrapper__shadow" @click="showBurger()"></div>
+      <div class="header-menu-wrapper-head">
+        <div class="header-menu-close" @click="showBurger()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16.263"
+            height="16.263"
+            viewBox="0 0 16.263 16.263"
+          >
+            <g id="menu" transform="translate(-17.368 -17.868)">
+              <g id="menu-2" data-name="menu" transform="translate(16 20)">
+                <path
+                  id="Контур_14101"
+                  data-name="Контур 14101"
+                  d="M1,0H20a1,1,0,0,1,0,2H1A1,1,0,0,1,1,0Z"
+                  transform="translate(2.782 -2.132) rotate(45)"
+                  fill="#fff"
+                />
+                <path
+                  id="Контур_14104"
+                  data-name="Контур 14104"
+                  d="M1,0H20a1,1,0,0,1,0,2H1A1,1,0,0,1,1,0Z"
+                  transform="translate(1.368 12.718) rotate(-45)"
+                  fill="#fff"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="header-menu__title">Меню</div>
+      <ul class="header-menu">
+        <li
+          class="header-menu__item"
+          v-for="(item, i) in menuItems"
+          :key="i"
+          data-menu-closer
+        >
+          <a :href="`/#${item.path}`" v-html="item.name"></a>
+        </li>
+      </ul>
+    </div>
+  </header>
+</template>
+
+<script>
+export default {
+  props: ["headerModified"],
+  data() {
+    return {
+      publicPath: process.env.BASE_URL,
+      menuItems: [
+        {
+          name: "Традиционные<small>конфитюры</small>",
+          path: "traditional",
+        },
+        {
+          name: "Низкокалорийные<small>конфитюры</small>",
+          path: "sugarless",
+        },
+        {
+          name: "О компании zuegg",
+          path: "about",
+        },
+        {
+          name: "Где купить?",
+          attr: "buy",
+          gtm: ["external", "click", "wheretobuy"],
+          path: "where-to-buy",
+        },
+      ],
+    };
+  },
+  computed: {
+    user() {
+      return this.$store.getters.user;
+    },
+    homePage() {
+      if (this.$route.path === "/") {
+        return true;
+      } else {
+        return false;
+      }
+    },
+  },
+
+  methods: {
+    showBurger() {
+      let header = document.querySelector(".header");
+      if (!header.classList.contains("_menu-opened"))
+        header.classList.add("_menu-opened");
+      else header.classList.remove("_menu-opened");
+    },
+  },
+  mounted() {},
+};
+</script>
+
+<style scoped lang="sass"></style>
